@@ -204,7 +204,6 @@ body{
     position: relative;
 }
 .custom_one{
-    margin-right: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -622,9 +621,6 @@ a{
     .second_line{
         width: 50px;
     }
-    .custom_one{
-        margin-right: 50px;
-    }
     .customs_text{
         font-size: 15px;
     }
@@ -728,6 +724,9 @@ a{
     }
     .section4_line{
         width: 50px;
+    }
+    .customs{
+        margin: 0 auto;
     }
     .card1_4{
         width: 160px;
@@ -937,9 +936,6 @@ a{
     .second_info_p{
         font-size: 12px;
         line-height: 16px;
-    }
-    .custom_one{
-        margin-right: 20px;
     }
     .customs_text{
         font-size: 14px;
