@@ -41,6 +41,10 @@ body{
 .links_header:last-child{
     padding-right: 0px;
 }
+.links_header:hover{
+    color:rgb(174, 10, 16);
+    font-weight: 800;
+}
 .header_button{
     font-weight: 700;
     font-size: 16px;
@@ -51,6 +55,15 @@ body{
     padding: 9px 36px;
     border: 1px solid #3E3F43;
     border-radius: 8px;
+}
+.header_button:hover{
+    background-color: #e84f54;
+    box-shadow: 0px 5px 10px 0px rgb(174, 10, 16);
+    color: white;
+    border:1px solid rgba(153, 14, 30, 0.5);
+}
+.header_button{
+    transition: background-color 0.5s 0s, box-shadow 0.8s 0s;
 }
 .container_text_header{
     margin: 0 auto;
@@ -101,6 +114,18 @@ body{
     background: #DAA520;
     border-radius: 4px;
     cursor: pointer;
+}
+.main_button:hover{
+    background:rgba(225, 94, 94, 0.976);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.main_button{
+    transition: background-color 0.5s 0s, box-shadow 0.8s 0s;
+}
+.run_str{
+    margin-top: 7%;
+    width: 200px;
+    height: 200px;
 }
 .container2{
     margin: 0 auto;
@@ -576,6 +601,10 @@ a{
         background-size: contain;
         height: 300px;
     }
+    .run_str{
+        width: 150px;
+        height: 150px;
+    }
 }
 @media (max-width: 813px){
     .header_img{
@@ -786,6 +815,10 @@ a{
     .block_footer_a{
         margin-bottom: 0px;
     }
+    .run_str{
+        width: 100px;
+        height: 100px;
+    }
 }
 @media (max-width: 440px){
     .header_button{
@@ -908,6 +941,10 @@ a{
     }
     .text_footer{
         flex-wrap: wrap;
+    }
+    .run_str{
+        width: 70px;
+        height: 70px;
     }
 }
 @media (max-width: 355px){
