@@ -122,10 +122,24 @@ body{
 .main_button{
     transition: background-color 0.5s 0s, box-shadow 0.8s 0s;
 }
+.marquee-container{
+    display: flex;
+    overflow: hidden;
+}
 .run_str{
-    margin-top: 7%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    white-space: nowrap;
+    animation: marquee 3.5s infinite linear;
+    animation-timing-function: cubic-bezier(.22, 1.47, .26, -0.49);
+}
+@keyframes marquee{
+    from{
+        margin-left: 4px;
+    }
+    to{
+        margin-left: 98%;
+    }
 }
 .container2{
     margin: 0 auto;
